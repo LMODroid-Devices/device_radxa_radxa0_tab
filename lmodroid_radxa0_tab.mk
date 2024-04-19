@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_mini_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,7 +18,7 @@ PRODUCT_BRAND := Radxa
 PRODUCT_DEVICE := radxa0_tab
 PRODUCT_MANUFACTURER := radxa
 PRODUCT_MODEL := Radxa Zero
-PRODUCT_NAME := lineage_radxa0_tab
+PRODUCT_NAME := lmodroid_radxa0_tab
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
